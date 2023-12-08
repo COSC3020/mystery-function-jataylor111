@@ -12,3 +12,4 @@ function mystery(a) {
     else return a[0];
 }
 ```
+This function accepts an array and searches through it for the greatest value.
