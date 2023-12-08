@@ -12,6 +12,4 @@ function mystery(a) {
     else return a[0];
 }
 ```
-This function takes the array 'a' and first checks to see if it only has a a length of 1, if it does it just returns the first entry, 
-if not it creates the variable foo and it is built by taking a slice of the array a, starting at 1, and keeps "looping" through the function shrinking 
-foo until foo is a single entry, it then compares that final entry with a[0], and if foo is larger it returns foo, if not it just returns a[0].
+This function accepts an array and searches through it for the greatest value.
